@@ -29,5 +29,5 @@ For example, I have a buggy calculator app, so I used my agent to fix the code:
 # Calling function: write_file
 # Calling function: run_python_file
 # Final response:
-# Great! The calculator app now seems to be working correctly. T
+# Great! The calculator app now seems to be working correctly. The output shows the expression and the result in a formatted way.
 ```
