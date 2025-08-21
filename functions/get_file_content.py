@@ -23,6 +23,7 @@ def get_file_content(working_directory, file_path):
             file_content_string = f.read(FILE_CHARACTER_LIMIT)
             if len(file_content_string) == FILE_CHARACTER_LIMIT:
                 file_content_string += truncation_message
+            print(f'Returning file contents from {file_path} at abs path {full_path}...\n\n')
             return file_content_string
     except Exception as e:
         return f"Error: reading file at {full_path}, {e}"
